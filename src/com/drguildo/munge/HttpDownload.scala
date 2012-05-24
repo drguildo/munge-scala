@@ -12,7 +12,6 @@ object HttpDownloadStatus extends Enumeration {
 
 // TODO: Handle invalid URLs.
 // TODO: Spoof referrer.
-// TODO: User agent.
 // TODO: Handle various HTTP status codes.
 class HttpDownload(val url: URL, val path: File) extends Runnable {
   var append = false
