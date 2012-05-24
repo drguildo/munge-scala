@@ -1,0 +1,16 @@
+Improvements
+------------
+ * Limit the number of concurrent downloads.
+ * Separate out duplicate functionality such as the pop-up menus and model
+   manipulations.
+
+Ideas
+-----
+ * A column with the status code of the URL. The text could be colour coded.
+ * A generic way to download media embedded/linked in a page
+ * A tab/set of tabs for parsing URLs on specific sites (e.g. to extract Flash
+   videos from them)
+ * A way to generate directory names
+ * A way to rename files (i.e. to deal with 01.jpg type bullshit)
+ * A way to search Google Images and potentially other image/file search engines
+ * Store download list across sessions.
