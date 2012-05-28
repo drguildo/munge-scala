@@ -32,6 +32,8 @@ object Scraper {
     }
   }
 
+  // Returns a list of the values of all the specified tag attribute contained
+  // in the specified document.
   def elemAttrs(doc: Document, tag: String, attr: String): List[String] =
     doc.getElementsByTag(tag).map(_.attr(attr)).filterNot(_ == "").toList
 }
